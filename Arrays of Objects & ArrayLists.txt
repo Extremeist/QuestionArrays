@@ -1,0 +1,43 @@
+When we looked at Inheritance, you were asked to develop a quiz app for students to use in their study.    The app should enable lecturers to add questions relating to course content in a number of different formats.  You were tasked with developing the necessary question object(s).  Each question type is outlined below with its necessary attributes.   
+
+Basic questions will have the following attributes: 
+
+questionText 
+
+ correctAnswer 
+
+ mark (representing the mark awarded for a correct answer ) 
+
+Answer (representing the answer entered by the user) 
+
+  
+
+Multiple choice questions will have the following attributes: 
+
+questionText 
+
+ correctAnswer 
+
+ mark (representing the mark awarded for a correct answer ) 
+
+option a, option b and option c (representing each of the possible answers)  
+
+answer(representing the answer chosen by the user) 
+
+Essay Questions will have the following attributes: 
+
+questionText 
+
+ correctAnswer 
+
+ mark (representing the mark awarded for a correct answer ) 
+
+answer (representing the text entered by the user) 
+
+maxWordCount (representing the maximum word count for the essay) 
+
+Today you are required to build on this application developed previously so that a user can add, print, search for and delete questions.  Your application should make use of either arrays of objects or arrayLists to store the questions.  If you didn't develop the application previously then you will need to do so now.  You can use System.out and JOptionPane to handle user input and output. 
+
+ 
+
+Your previous application should already contain a superclass and two subclasses along with an app class. You should now add a UI class with a menu method similar to the one used in the lecture example and use your app class to just create an instance of this UI class and trigger the menu method. 
